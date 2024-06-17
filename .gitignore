@@ -1,0 +1,11 @@
+data/*
+__pycache__
+assets/*.h5
+assets/*.keras
+splits/*
+*.h5
+*.keras
+artifacts/*
+local_runs/*
+wandb/*
+

@@ -1,0 +1,21 @@
+{
+    "TIMESTAMP": "04-13-12:23",
+    "DATA_PATH": "data/flickr30k_images/",
+    "IMAGES_PATH": "data/flickr30k_images/flickr30k_images/",
+    "IMAGE_SIZE": [
+          224,
+          224
+    ],
+    "VAL_FRACTION": 0.05,
+    "SEQ_LENGTH": 36,
+    "VOCAB_SIZE": 10000,
+    "BATCH_SIZE": 128,
+    "STRIP_CHARS": "!\"#$%&'()*+,-./:;=?@[\\]^_`{|}~",
+    "EPOCHS": 10,
+    "EMBED_DIM": 1028,
+    "FF_DIM": 512,
+    "ENC_HEADS": 4,
+    "DEC_HEADS": 4,
+    "ARTIFACT_DIR": "./local_runs/L_size_model",
+    "LR": 0.0001
+}
